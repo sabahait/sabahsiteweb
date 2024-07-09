@@ -1,0 +1,125 @@
+.guaranteesA {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .guaranteesA h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .guaranteesA p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .guarantees-cardsA {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cardA{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+  }
+  .cardeA{
+    background-color:rgb(3, 15, 53);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: left;
+    border-radius: 20px;
+    color:white;
+  }
+  .cardeA h2{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .cardA h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cardA h3{
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+  
+  
+  .card-contentA h2 {
+    margin-top: 0px;
+    font-size: 3rem;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 70px;
+  }
+  .card-contenteA h2{
+    font-size: 3.5rem;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25px;
+  }
+  .card-contenteA h1{
+    font-size: 0.8rem;
+  }
+  .card-contenteA img{
+    margin-left: 60px;
+  }
+  .card-content p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .card-contenteA p {
+    font-size: 0.9rem;
+    margin-left: 20px;
+    text-align: center;
+    margin-top:30px;
+  }
+  
+  .button1A{
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  @media only screen and (max-width: 800px) {
+    .card-contentA h2 {
+      margin-top: 0px;
+      font-size: 2rem;
+      
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-right: 70px;
+    }
+    .cardA h3{
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .cardeA{
+      background-color:rgb(3, 15, 53);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+      text-align: left;
+      border-radius: 20px;
+      color:white;
+    }
+  }
+  

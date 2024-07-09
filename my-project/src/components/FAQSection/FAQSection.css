@@ -1,0 +1,93 @@
+.faq-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.faq-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.faq-header .icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.faq-header h2 {
+  font-size: 24px;
+}
+
+.faq-header span {
+  color: #00bcd4; /* Couleur pour le mot "questions" */
+}
+
+.faq-questions {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-question:last-child {
+  border-bottom: none;
+}
+
+.question-icon {
+  font-size: 1.5rem;
+  color: #ff9800;
+  margin-right: 10px;
+}
+
+.question-text {
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 40px 70px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 20 30;
+}
+
+button:hover {
+  background-color:orangered;
+}
+
+.show-questions {
+  background-color: #0e7f3b;
+  color:black;
+  font-family: 'Arial', sans-serif; /* Changez cette police selon vos préférences */
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.hide-questions {
+  padding: 20px 30px;
+  background-color:orangered; /* Une couleur différente pour le bouton "Fermer les questions" */
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Changez cette police selon vos préférences */
+}
+.hide-questions{
+  background-color: #0e7f3b;
+  color:black;
+  font-family: 'Arial', sans-serif; /* Changez cette police selon vos préférences */
+  padding: 20px 30px;
+  border-radius: 15px;
+}

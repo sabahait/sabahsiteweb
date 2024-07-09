@@ -1,0 +1,35 @@
+.cententE{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.cententE p{
+    color:royalblue;
+    text-align:center;
+}
+.cententE h3{
+    font-size:  3rem;
+    font-style:normal;
+    text-align: center;
+}
+.cententE h2{
+    font-size: 20px;
+    font-style: unset;
+    text-align: center;
+}
+.cententE h1{
+        font-size: 25px;
+        font-style:normal;
+        text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .cententE{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+        width: 550px;
+        margin-left: 40px;
+    }
+}

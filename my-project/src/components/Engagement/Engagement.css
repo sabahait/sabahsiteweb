@@ -1,0 +1,77 @@
+.Contentt h1{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.Contentt p{
+    text-align: left;
+    margin-left: 250px;
+    font-size: medium;
+    margin-bottom: 25px;
+}
+.hand-drawn {
+    font-family: 'Patrick Hand', cursive;
+    background-color: orange; /* Définissez la couleur de votre choix */
+  }
+.Contentt ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 350px;
+  }
+  
+  .Contentt ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .Contentt ul li::before {
+    content: '✔';
+    color:#FFA500;
+    margin-right: 10px;
+  }
+  .Contentt button{
+    border-radius: 25px;
+    background-color: rgba(255, 166, 0, 0.905);
+    padding: 15px;
+    width: 250px;
+    margin-left: 399px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+  }
+  @media only screen and (max-width: 800px) {
+    .Contentt h1{
+      font-size: 1.6rem;
+      text-align: left;
+      margin-left: 80px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: oblique;
+      margin-top: 100px;
+      margin-bottom: 20px;
+  }
+  .Contentt p{
+    text-align: left;
+    margin-left: 100px;
+    font-size: medium;
+    margin-bottom: 25px;
+}
+.Contentt ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 150px;
+}
+.Contentt button{
+  border-radius: 25px;
+  background-color: rgba(255, 166, 0, 0.905);
+  padding: 15px;
+  width: 250px;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+  }

@@ -1,0 +1,74 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-logo {
+    width: 100px; /* Ajustez la taille du logo selon vos besoins */
+    margin-bottom: 10px;
+  }
+  
+  .footer-rating {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stars {
+    color: #FFD700;
+    font-size: 1.2em;
+  }
+  
+  .reviews {
+    color: #ddd;
+    font-size: 0.9em;
+  }
+  
+  .footer-center ul, .footer-right ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-center ul li, .footer-right ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-center ul li, .footer-right ul li, .footer-bottom p {
+    color: #ccc;
+    font-size: 0.9em;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .footer-social {
+    color: #ccc;
+    margin-left: 10px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center; /* Centrer les icônes horizontalement */
+    gap: 10px; /* Espace entre les icônes */
+  }
+  
+  .footer-social a:hover {
+    color: #fff;
+  }
+  

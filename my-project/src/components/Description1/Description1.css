@@ -1,0 +1,35 @@
+.Content1{
+    background-color:aliceblue;
+}
+.Content1 h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:50px;
+}
+.image{
+    margin-left: 200px;
+    text-align: center;
+}
+.container1 {
+    background-color: orange;
+}
+.container1 img{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.container1 h1{
+    text-align:left;
+    font-size: 2rem;
+    margin-bottom: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 200px;
+}
+.container1 p{
+    text-align:left;
+    margin-left: 200px;
+    color: white;
+    width: 500px;
+}

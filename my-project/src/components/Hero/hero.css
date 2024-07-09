@@ -1,0 +1,166 @@
+.squares-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 130%; /* Adjust this to position squares lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px; /* Adjust this to position squares half inside the image */
+    margin-bottom: 400px;
+  }
+  .ToutPage{
+    margin-bottom: 600px;
+  } 
+.square {
+  width: 400px; /* Adjust width */
+  padding-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align text to left */
+  backdrop-filter: blur(10px); /* Optional: add blur effect */
+}
+  .square h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  .square p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: oblique;
+  }
+  
+  .square a {
+    color: #ffffff; /* Couleur du texte */
+    text-decoration: none; /* Suppression du soulignement */
+    font-weight: bold; /* Texte en gras */
+    background-color:orangered; /* Couleur de fond */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Bords arrondis */
+    display: inline-block; /* Affichage en ligne */
+    transition: background-color 0.3s; /* Animation de la couleur de fond */
+  }
+  
+  .square a:hover {
+    background-color: rgb(149, 143, 143); /* Couleur de fond au survol */
+  }
+  
+  .ss1{
+    padding-top: 350px;
+    text-align: center;
+    font-style:italic;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-left: 80px;
+  } 
+  .photo1{
+   padding-bottom: 20px;
+   place-items: center; 
+   margin-left:550px;
+   width: 780px;
+   height: auto;
+   margin-bottom: 25px;
+
+  }
+  .button-line {
+    position: absolute;
+    bottom: 0; /* Positionnez la ligne en bas du bouton */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Ajustez la largeur de la ligne */
+    height: 2px; /* Ajustez l'épaisseur de la ligne */
+    background-color: #fff; /* Couleur de la ligne */
+  }
+  .custom-quote-link {
+    position: relative; /* Permet de positionner la ligne à l'intérieur du lien */
+    display: inline-block;
+    background-color:orangered;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .custom-quote-link .link-line {
+    position: absolute;
+    bottom: 0; /* Positionnez la ligne en bas du lien */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Ajustez la largeur de la ligne */
+    height: 2px; /* Ajustez l'épaisseur de la ligne */
+    background-color: #fff; /* Couleur de la ligne */
+  }
+  @media only screen and (max-width: 800px) {
+    .text-left h1 {
+      margin-left: 100px;
+      color: black;
+    }
+    .text-left p {
+      margin-left: 100px;
+      color: black;
+    }
+    .text-left button {
+      margin-left: 100px;
+    
+    }
+    .ToutPage{
+      margin-bottom: 1200px;
+    } 
+  
+    .squares-container {
+      margin-top: 15px;
+      display:block;
+      justify-content:center;
+      position: static;
+      transform: none;
+      top: auto;
+     margin-left: 150px;
+      margin-top: 0;
+      margin-bottom:0; /* Adjust as needed */
+    }
+  
+    .square {
+      width: 60%; /* Adjust width for full width on mobile */
+      margin-left: 0; /* Reset margin-left */
+      box-shadow: none; /* Remove box-shadow */
+      padding: 10px; /* Adjust padding */
+      background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+ 
+    }
+  
+    .square h3 {
+      font-size: 1.5rem; /* Adjust font size */
+    }
+  
+    .square p {
+      font-size: 16px; /* Adjust font size */
+      text-align: center;
+    }
+    .ss1{
+      padding-top: 0px;
+      text-align: center;
+      font-style:italic;
+      font-size: 2rem;
+      margin-bottom: 50px;
+      margin-left: 40px;
+    } 
+    .photo1{
+     padding-bottom: 0px;
+     margin-left:10px;
+     width: 800px;
+     height: auto;
+     margin-bottom: 0px;
+  
+    }
+  }

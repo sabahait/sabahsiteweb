@@ -1,0 +1,103 @@
+.guarantees {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .guarantees h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .guarantees p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .guarantees-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+  }
+  .carde{
+    background-color:rgb(3, 15, 53);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    border-radius: 20px;
+    color:white;
+  }
+  .carde h2{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  .card-content h2 {
+    font-size: 3.5rem;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 70px;
+  }
+  .card-contente h2{
+    font-size: 3.5rem;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 60px;
+  }
+  .card-contente img{
+    margin-left: 60px;
+  }
+  .card-content p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .card-contente p {
+    font-size: 0.9rem;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #fcb900;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  @media only screen and (max-width: 800px) {
+    
+    .btn {
+      background-color: #fcb900;
+      color: black;
+      padding-left: 10px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  }
+  

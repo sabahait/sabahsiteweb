@@ -1,0 +1,166 @@
+.contact-form-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 300px;
+    padding-bottom:100px ;
+  }
+  
+  .contact-form-left {
+    width: 60%;
+    padding: 20px;
+    background-color:orange;
+    color:white;
+  }
+  
+  .contact-form-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contact-form-info h3 {
+    margin-top: 20px;
+    margin-top: 80px;
+    margin-left: 60px;
+  }
+  .contact-form-info p {
+    margin-left: 60px;
+    margin-top: 20px;
+    color:#f4eded;
+  }
+  .social-media-icons{
+    margin-left: 35px;
+  }
+  .social-media-icons a {
+    margin-right: 10px;
+    font-size: 1rem;
+    padding-left: 15px;
+  }
+  
+  .contact-form-right {
+    width: 100%;
+    padding-left:70px;
+
+  }
+  
+  .contact-form-right h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    padding-left: 0px;
+    font-style:italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .contact-form-right p {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .form-group label h1{
+    color: #ff9800;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color:orange;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button[type="submit"]:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  @media only screen and (max-width: 800px) {
+    .contact-form-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 150px;
+      margin-left: 10px;
+      margin-right: 100px;
+      padding-bottom:100px ;
+    }
+    .contact-form-image {
+      width: 500px;
+      height: auto;
+    }
+    .contact-form-left {
+      display: none;
+    }
+    button[type="submit"] {
+      background-color:orange;
+      border-radius: 100px;
+      box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+      color: green;
+      cursor: pointer;
+      display: inline-block;
+      font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+      padding: 7px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      font-size: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin-left: 130px;
+    }
+    .contact-form-right {
+      width: 100%;
+      padding-left:150px;
+  
+    }
+    .contact-form-right h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      padding-left: 0px;
+      font-style:italic;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    }
+    .contact-form-right p {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+

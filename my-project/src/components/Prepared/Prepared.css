@@ -1,0 +1,124 @@
+.performance-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:white; 
+    color: #333;
+  }
+  
+  .left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .left h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    background-color:#f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    width: 100px;
+  }
+  
+  .stat:last-child {
+    margin-right: 0;
+  }
+  
+  .S{
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+  }
+  .sa{
+    margin-bottom:10px;
+    text-align:left;
+    margin-left: 150px;
+   
+  }
+  
+  .right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .info-box {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 300px;
+  }
+  
+  .info-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .info-box p {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .info-box h1{
+    text-align: left;
+    font-size:3rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  @media only screen and (max-width: 800px) {
+    .performance-section {
+      display:block;
+      justify-content: space-between;
+      padding: 50px;
+      background-color:white; 
+      color: #333;
+    }
+    .left h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .stat {
+      background-color:#f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      margin-right: 20px;
+      width: 400px;
+    }
+    .stats {
+      display:block;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    .stat {
+      background-color:#f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      margin-bottom: 40px;
+      width: 400px;
+      margin-left: 60px;
+    }
+  }
+  

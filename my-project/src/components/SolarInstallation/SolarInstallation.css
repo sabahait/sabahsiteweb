@@ -1,0 +1,94 @@
+.solar-installationn {
+    padding: 70px;
+    text-align: center;
+    color: #333;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .solar-installationn h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .solar-installationn p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contentt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+  }
+  
+  .imaged-container img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 280px;
+    margin-right: 200px;
+  }
+  
+   .text-containeres {
+    background-color:gainsboro;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+  }
+  
+  .text-containeres h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-containeres p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .warranty {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .warranty span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 20px;
+  }
+  .s{
+    margin-right: 310px;
+  }
+  @media only screen and (max-width: 800px) {
+    .contentt {
+      display:block;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+  
+    }
+    .text-containeres {
+      background-color:gainsboro;
+      padding: 20px;
+      border-radius: 8px;
+      margin-right: 80px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      margin-top: 40px;
+      margin-left:50px;
+    }
+    .imaged-container img {
+      max-width: 50%;
+      height: auto;
+      margin-left: 150px;
+      margin-right: 200px;
+    }
+  }
+  
